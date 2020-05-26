@@ -19,6 +19,17 @@ private:
 	int A[20];
 	int size;
 };
+
+void Array::read_Array()
+{
+	int i, N;
+	cout<<"Enter the size of your array:\n";
+	cin>>N;
+	if(N > MaxSize)
+	{
+		
+	}
+}
 int main()
 {
 	cout << "Hello world\n";
