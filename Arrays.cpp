@@ -7,6 +7,12 @@ public:
 	{
 		this->MaxSize = 20;
 		this->size = 0;
+
+		void read_Array();
+		void display();
+		void insert(int element, int location);
+		void Delete(int location);
+		void search(int element);
 	}
 private:
 	int MaxSize;
