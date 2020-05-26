@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 class Array 
 {
 public:
@@ -28,7 +29,7 @@ void Array::read_Array()
 	cin>>N;
 	if(N > MaxSize)
 	{
-		
+		cout << "SORRY the size is:";
 	}
 }
 int main()
