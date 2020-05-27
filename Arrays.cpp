@@ -8,7 +8,7 @@ public:
 	Array()
 	{
 		this->MaxSize = 20;
-		this->size = 0;
+		this->size = 0;m,mv,bm,cmb,mb
 	}
 
 	void read_Array();
