@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 class Array 
@@ -105,6 +106,9 @@ void
 int main()
 {
 	cout << "Hello world\n";
+
+    ifstream inputFile;
+    ofstream outputFile;
 
 	return 0;
 }
